@@ -1,6 +1,13 @@
 #include<stdio.h>
 
-/*code to print a scentence using puts*/
+/**
+ * main - Entry point
+ * 
+ * Description: 'print using puts'
+ * @parameter: everything goes
+ * 
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
