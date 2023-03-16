@@ -1,5 +1,3 @@
-#!/bin/bash
-
 /*code to print a scentence using puts*/
 
 #include<stdio.h>
