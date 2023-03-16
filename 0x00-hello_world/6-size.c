@@ -11,13 +11,13 @@ int main(void)
 	int i;
 	float f;
 	char c;
-	long int l
-	long long int k
+	long int l;
+	long long int k;
 
-	printf("Size of char is: %lu.\n", (unasigned long)sizeof(c));
-	printf("Size of int is: %lu.\n", (unasigned long)sizeof(i));
-	printf("Size of long int is: %lu.\n", (unassigned long)sizeof(l));
-	printf("Size of long long int is: %lu.\n", (unassigned long)sizeof(k));
+	printf("Size of char is: %lu.\n", (unsigned long)sizeof(c));
+	printf("Size of int is: %lu.\n", (unsigned long)sizeof(i));
+	printf("Size of long int is: %lu.\n", (unsigned long)sizeof(l));
+	printf("Size of long long int is: %lu.\n", (unsigned long)sizeof(k));
 
 	return(0);
 }
