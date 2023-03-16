@@ -2,10 +2,7 @@
 
 /**
  * main - Entry point
- * 
  * Description: 'print using puts'
- * @parameter: everything goes
- * 
  * Return: Always 0 (Success)
  */
 
