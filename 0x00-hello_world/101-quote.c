@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 
 /**
  * Description: cod to print without using printf and puts
