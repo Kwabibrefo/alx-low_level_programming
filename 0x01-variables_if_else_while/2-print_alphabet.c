@@ -2,15 +2,16 @@
 #include<stdlib.h>
 
 /**
- * description: uyu
- * return (0) success
+ * main - Entry point
+ * Description: 'print using print f'
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	char letter;
 
-	for (letter = 'a'; letter <='z'; letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar("letter\n");
 	return (0);
 }
