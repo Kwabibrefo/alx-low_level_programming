@@ -1,5 +1,4 @@
-#include<stdio.h>
-#include<string.h>
+#include <unistd.h>
 
 /**
  * Description: cod to print without using printf and puts
@@ -8,6 +7,6 @@
 int main(void)
 {
 	const char *msg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	fwrite(STDERR_FILENO, msg, strlen(msg));
-	return (0)
+	write(STDERR_FILENO, msg, strlen(msg));
+	return 1;
 }
