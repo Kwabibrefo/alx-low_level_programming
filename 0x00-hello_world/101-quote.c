@@ -2,8 +2,10 @@
 #include<string.h>
 
 /**
- * Description: print without using printf and puts
- * return 1*/
+ * main - Entry point
+ * Description: 'print using print f'
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
