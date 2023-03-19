@@ -12,7 +12,8 @@ int main(void)
 	char q;
 	char e;
 
-	for (letters = 'a'; letters <= 'z'; letters++ != 'q'; letters++ != 'e'; letters++)
+	for (letters = 'a'; letters <= 'z'; letters++)
+	       if (letters != 'q' && letters++ != 'e')
 		putchar(letters);
 	putchar('\n');
 	return (0);
