@@ -12,8 +12,8 @@ int main(void)
 	char upLetters;
 
 	for (loLetters = 'a'; loLetters <= 'z'; loLetters++)
-	for (upLetters = "A"; upLettrs <= 'Z'; upLetters++)
+	for (upLetters = 'A'; upLetters <= 'Z'; upLetters++)
 		putchar(loLetters+upLetters);
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
