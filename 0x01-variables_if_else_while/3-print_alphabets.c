@@ -3,7 +3,7 @@
 /**
  * main - entry poin
  * Description: printing upper and loer case alphabets
- * return: always return 0 (success)
+ * Return: always return 0 (success)
  */
 
 int main(void)
