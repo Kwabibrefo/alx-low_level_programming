@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	char loLetters
-	char upLetters
+	char loLetters;
+	char upLetters;
 
 	for (loLetters = 'a', loLetters <= 'z', loLetters++)
 	for (upLetters = "A", upLettrs <= 'Z', upLetters++)
