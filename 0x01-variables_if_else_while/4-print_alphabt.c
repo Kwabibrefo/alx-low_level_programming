@@ -12,7 +12,7 @@ int main(void)
 	char q;
 	char e;
 
-	for (letters = 'a'; letters <= 'z'; letters++ != 'q'; letters++ != 'e')
+	for (letters = 'a'; letters <= 'z'; letters++ != 'q'; letters++ != 'e'; letters++)
 		putchar(letters);
 	putchar('\n');
 	return (0);
