@@ -7,11 +7,11 @@
  * Return: return 0 (success)
  */
 
-{
+
 	int i = 97;
 
 	for (i = 97; i <= 122; i++)
 		_putchar('i');
 	_putchar('\n');
-	return (0);
-}
+	return (0)
+
