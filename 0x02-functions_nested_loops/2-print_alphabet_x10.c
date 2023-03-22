@@ -6,12 +6,11 @@
  * Return: return 0 (success)
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int i = 97;
-	int k = 0;
-
-	while (k = 0; k <= 10; k++)
+	
+	while (i <= 122)
 	{
 		for (i = 97; i <= 122; i++)
 		{
