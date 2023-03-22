@@ -6,7 +6,7 @@
  * Return: return 0,1 (success)
  */
 
-int _islower(int c);
+int _islower(int c)
 {
 	int i = 65;
 
