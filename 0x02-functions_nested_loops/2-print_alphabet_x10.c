@@ -11,7 +11,7 @@ void print_alphabet(void)
 	int i = 97;
 	int k = 0;
 
-	while (k = '0'; k <= '10'; k++)
+	while (k = 0; k <= 10; k++)
 	{
 		for (i = 97; i <= 122; i++)
 		{
