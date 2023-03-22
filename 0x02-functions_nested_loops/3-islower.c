@@ -3,6 +3,7 @@
 /**
  * _islower - entry point
  * Description: predict let cases
+ * @c: letter for int
  * Return: return 0,1 (success)
  */
 
