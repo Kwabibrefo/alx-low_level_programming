@@ -7,7 +7,6 @@
  * Return: return 0 (success)
  */
 
-int main(void)
 {
 	int i = 97;
 
