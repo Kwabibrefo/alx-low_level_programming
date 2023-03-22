@@ -8,7 +8,9 @@
 
 int _islower(int c)
 {
-	if (c = '0'; c >= '97'; c < '122')
+	c = 0;
+
+	if (c >= '97'; c < '122')
 	{
 		_putchar('1');
 		else
