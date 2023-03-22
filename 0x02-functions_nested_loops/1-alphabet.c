@@ -1,5 +1,6 @@
+#include "main.h"
 #include <stdio.h>
-#include <main.h>
+
 /**
  * main - entry point
  * Description: alphabets print out
