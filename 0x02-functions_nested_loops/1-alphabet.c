@@ -6,9 +6,11 @@
  * Description: alphabets print out
  * Return: return 0 (success)
  */
-int i = 97;
-int main(void)
+
+void print_alphabet(void);
 {
+	int i = 97;
+
 	for (i = 97; i <= 122; i++)
 	{
 		putchar(i);
