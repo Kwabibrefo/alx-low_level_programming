@@ -3,7 +3,7 @@
 /**
  * _isalpha - entry point
  * @c: letter fr int
- * Return : return 0 (success)
+ * Return: return 0 (success)
  */
 
 int _isalpha(int c)
