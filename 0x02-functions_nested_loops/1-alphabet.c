@@ -6,7 +6,7 @@
  * Description: alphabets print out
  * Return: return 0 (success)
  */
-int i = 97
+int i = 97;
 int main(void)
 {
 	for (int i = 97; i <= 122; i++)
