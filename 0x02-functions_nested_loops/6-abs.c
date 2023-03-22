@@ -2,7 +2,7 @@
 
 /**
  * _abs - entry point
- * Description: absolute
+ *@n: absolute
  * Return: return 0 (success)
  */
 
