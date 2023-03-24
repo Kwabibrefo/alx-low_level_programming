@@ -2,8 +2,8 @@
 
 /**
  * _isupper - entryr point
- * @c - the variable
- * Return - return 0 (sucess)
+ * @c: the variable
+ * Return: return 0 (sucess)
  */
 
 int _isupper(int c)
