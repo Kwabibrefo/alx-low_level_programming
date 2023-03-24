@@ -2,8 +2,8 @@
 
 /**
  * mul - entry
- * @a: char
- * @b: char
+ * @a: char a
+ * @b: char b
  * Return: return 0 (success)
  */
 
