@@ -9,11 +9,12 @@
 int main(void)
 {
 	int i = 0;
-	
-	while(i <= 9)
+
+	while (i <= 9)
 	{
 		int j;
-		for(j = 0; j <= 9; j++)
+
+		for (j = 0; j <= 9; j++)
 		{
 			putchar(i + '0');
 			putchar(j + '0');
