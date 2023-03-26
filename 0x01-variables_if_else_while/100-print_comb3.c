@@ -9,12 +9,18 @@
 int main(void)
 {
 	int i = 0;
-	int j = 0;
-
-	while (i < 9 && j < 9)
-	{_putchar(i);
-		_putchar(j);
-		_putchar(' ');
-		_puchar(',');
+	
+	while(i <= 9)
+	{
+		int j;
+		for(j = 0; j <= 9; j++)
+		{
+			putchar(i + '0');
+			putchar(j + '0');
+			putchar(44);
+			putchar(32);
+		}
+		i++;
 	}
+	return (0);
 }
