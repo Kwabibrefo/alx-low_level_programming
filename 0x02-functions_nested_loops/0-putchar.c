@@ -3,6 +3,7 @@
 /**
  * Main - entry point
  * Description: print _putchar
+ * @c: variable
  * Return: return 0 (success)
  */
 
