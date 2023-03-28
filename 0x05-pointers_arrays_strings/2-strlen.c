@@ -6,7 +6,7 @@
  * Return value: return nothing
  */
 
-int _strlen(char *s),
+int _strlen(char *s)
 {
 	while (*s != 0)
 	{
