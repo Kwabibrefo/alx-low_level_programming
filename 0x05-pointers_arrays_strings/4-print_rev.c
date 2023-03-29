@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * rev_string - entry point
+ * print_rev - entry point
  * @s: some pointer
  * Return: return nothing
  */
 
-void rev_string(char *s)
+void print_rev(char *s)
 {
 	int i;
 	int l = 0;
@@ -16,7 +16,7 @@ void rev_string(char *s)
 	{
 		c = l++;
 	}
-	while (c >=0)
+	while (c >= 0)
 	{
 		_putchar(s[c]);
 	}
