@@ -2,7 +2,7 @@
 
 /**
  * _puts - entry
- * @*str: some array
+ * @str: some array
  * Return: return 0 (success)
  */
 
