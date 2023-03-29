@@ -11,14 +11,16 @@ void puts2(char *str)
 	int i;
 	int c;
 	int d = 0;
-	int e;
-	for (i = 0; str[i] != '\0'; i++ )
+		
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		e = d++;
+		c = i++;
 	}
-	for (c = 0; str[c] <= str[e - 1]; c = c + 2)
+	while (d <= c)
 	{
-		_putchar(str[c]);
+		_putchar(str[d]);
+		d = d + 2;
 	}
+
 	_putchar('\n');
 }
