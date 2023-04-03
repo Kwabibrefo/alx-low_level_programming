@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - entry point
+ * _strcat - entry point
  * @*dest: char
  * @*src: char
  * Return: new dest
