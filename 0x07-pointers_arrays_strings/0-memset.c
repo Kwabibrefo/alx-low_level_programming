@@ -5,7 +5,7 @@
  * @n: var
  * @s: var
  * @b: var
- * return: s
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)
