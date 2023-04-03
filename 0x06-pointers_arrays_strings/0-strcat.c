@@ -2,8 +2,8 @@
 
 /**
  * _strcat - entry point
- * @*dest: char
- * @*src: char
+ * @dest: char
+ * @src: char
  * Return: new dest
  */
 
