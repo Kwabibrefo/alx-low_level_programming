@@ -4,7 +4,7 @@
  * *_strncat - entry point
  * @dest: variable
  * @src: variable
- * n: variable
+ * @n: variable
  * Return: dest
  */
 
@@ -28,5 +28,6 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		o++;
 	}
+	dest[i] = '\0';
 	return (dest);
 }
