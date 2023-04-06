@@ -2,7 +2,7 @@
 
 /**
  * _sqrt_recursion - rec fun
- * _sqrt - rec fun
+ * _sqrt: - recursion
  * @n: int
  * @i: int
  * Return: square root
