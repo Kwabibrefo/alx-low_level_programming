@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
+ * _sqrt - rec
  * _sqrt_recursion - rec fun
- * _sqrt - recursion function 
+ * _sqrt - recursion function
  * @n: int
  * @i: int
  * Return: square root
