@@ -2,8 +2,9 @@
 
 /**
  * _sqrt_recursion - rec fun
+ * _sqrt - rec fun
  * @n: int
- * i: int
+ * @i: int
  * Return: square root
  */
 
