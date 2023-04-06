@@ -24,6 +24,10 @@ int _sqrt(int n, int i)
 	return (_sqrt(n, i + 1));
 }
 
+/**
+ * * _sqrt_recursion - rec fun
+ */
+
 int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
