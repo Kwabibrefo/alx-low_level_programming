@@ -2,8 +2,6 @@
 
 /**
  * _sqrt - rec
- * _sqrt_recursion - rec fun
- * _sqrt - recursion function
  * @n: int
  * @i: int
  * Return: square root
@@ -25,7 +23,8 @@ int _sqrt(int n, int i)
 }
 
 /**
- * * _sqrt_recursion - rec fun
+ *  _sqrt_recursion - rec fun
+ *  @n: int
  */
 
 int _sqrt_recursion(int n)
