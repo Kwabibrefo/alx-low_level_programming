@@ -25,6 +25,7 @@ int _sqrt(int n, int i)
 /**
  *  _sqrt_recursion - rec fun
  *  @n: int
+ *  Return: root
  */
 
 int _sqrt_recursion(int n)
