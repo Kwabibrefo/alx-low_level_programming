@@ -2,7 +2,8 @@
 
 /**
  * maint - entry
- * Description: prog to print file name
+ * @argc: argv array size
+ * @argv: arg array
  * Return: return 0 (success)
  */
 
