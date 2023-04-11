@@ -22,11 +22,11 @@ char *create_array(unsigned int size, char c)
 	}
 	if (sizeof(s) == 0)
 	{
-		return ('\0');
+		return (NULL);
 	}
 	else if (s == NULL)
 	{
-		return ('\0');
+		return (NULL);
 	}
 	else
 	{
