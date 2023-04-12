@@ -4,7 +4,7 @@
 /**
  * *_strdup - function
  * @str: pointer to string
- * REturns: null or pointer
+ * Returns: null or pointer
  */
 
 char *_strdup(char *str)
@@ -24,15 +24,14 @@ char *_strdup(char *str)
 		;
 	}
 	s = malloc((j + 1) * sizeof(char));
+	if (s == NULL)
+	{
+		return (NULL);
+	}
 	while (str[i] != '\0')
 	{
 		s[i] = str[i];
 		i++;
 	}
-	if (s == NULL)
-	{
-		return (NULL);
-	}
-
 	return (s);
 }
