@@ -5,6 +5,7 @@
  * @name: dog name.
  * @age:  dog age.
  * @owner: name of owner
+ * @d: pointer to int_dog
  *
  * Description: The attributes of a dog.
  */
