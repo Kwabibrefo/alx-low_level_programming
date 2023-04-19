@@ -11,7 +11,7 @@
   * Pointer to memory allocated if successful.
   */
 
-voiid *_calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *p;
 	unsigned int i;
@@ -30,7 +30,6 @@ voiid *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		*((char *)(p) + i) = 0;
 	}
-
 	return (p);
 }
 
