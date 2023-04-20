@@ -6,7 +6,7 @@
  * array_iterator- function with pointer to functions
  * @array: an array
  * @size: size o array
- * @actio: points to function
+ * @action: points to function
  * Return: return nothing
  */
 
