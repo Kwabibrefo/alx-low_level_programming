@@ -40,7 +40,7 @@ int op_mul(int a, int b)
 /**
  * op_div - division
  * @a: variable one
- * @b:variable two 
+ * @b:variable two
  * Return: div
  */
 int op_div(int a, int b)
