@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_opcodes - print the opcodes 
+ * print_opcodes - print the opcodes
  * @a: address of the main function
  * @n: number of bytes to print
  * Return: void
@@ -11,7 +11,7 @@
 void print_opcodes(char *a, int n)
 {
 	int o;
-	
+
 	for (o = 0; o < n; o++)
 	{
 		printf("%.2hhx", a[o]);
@@ -33,7 +33,7 @@ void print_opcodes(char *a, int n)
 int main(int argc, char **argv)
 {
 	int a;
-	
+
 	if (argc != 2)
 	{
 		printf("Error\n");
