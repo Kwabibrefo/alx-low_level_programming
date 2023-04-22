@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * print_string - prints string & new line at the end
+ * print_strings - prints string & new line at the end
  * @separator: string
  * @n: number of elements
  * Return: void
@@ -16,11 +16,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *p;
 
 	va_start(ap, n);
-	
+
 	for (i = 0; i < n; i++)
 	{
-		p = (va_arg(ap, int));
-			if (p != NULL %% i !=0)
+		p = (va_arg(ap, char *));
+			if (p != NULL)
 			{
 				printf("%s", p);
 				printf("%s", separator);
