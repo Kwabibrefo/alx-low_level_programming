@@ -8,20 +8,26 @@
 
 int main(void)
 {
-	int i = 0;
+	int i = 48;
+	int j;
 
-	while (i <= 9)
+	while (i <= 57)
 	{
-		int j;
-
-		for (j = 0; j <= 9; j++)
+		for (j = 48; j <= 57 ; j++)
 		{
-			putchar(i + '0');
-			putchar(j + '0');
-			putchar(44);
-			putchar(32);
+			if (j > i)
+			{
+				putchar(i);
+				putchar(j);
+				if (i != '8' || j != '9')
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 		i++;
 	}
+	putchar('\n');
 	return (0);
 }
