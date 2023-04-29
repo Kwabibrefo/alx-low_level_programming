@@ -21,17 +21,18 @@ int main(void)
 				for (k = 48; k <= 57; k++)
 				{
 					if (k > j)
+				{
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if (i != '7' || j != '8' || k != '9')
 					{
-						putchar(i);
-						putchar(j);
-						putchar(k);
-						if (i != '7' || j != '8' || k != '9')
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
 				}
+				}
+
 			}
 		}
 		i++;
