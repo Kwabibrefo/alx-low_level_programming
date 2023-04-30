@@ -5,7 +5,6 @@
 /**
  * print_to_98 - increment by 1
  * @n: first variable
- * @j: second variable
  * Return: void
  */
 
