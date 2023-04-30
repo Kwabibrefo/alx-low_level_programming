@@ -4,7 +4,8 @@
 
 /**
  * add - computes sum
- * Description: prints sum
+ * @i: first variable
+ * @j: second variable
  * Return: sum
  */
 
