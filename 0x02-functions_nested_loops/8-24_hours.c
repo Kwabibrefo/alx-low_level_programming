@@ -3,10 +3,10 @@
 /**
  * main - entry point
  * Description: print combs
- * Return: return 0 (succcess)
+ * Return: return nothing
  */
 
-int main(void)
+void jack_bauer(void)
 {
 	int i = 0;
 	int j = 0;
@@ -31,5 +31,4 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return (0);
 }
