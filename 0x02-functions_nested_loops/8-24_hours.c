@@ -19,15 +19,10 @@ void jack_bauer(void)
 			{
 				putchar(i / 10 + '0');
 				putchar(i % 10 + '0');
-				putchar(' ');
+				putchar(':');
 				putchar(j / 10 + '0');
 				putchar(j % 10 + '0');
-				if (i != 99 || j != 99)
-				{
-					putchar(',');
-					putchar(' ');
-					putchar('\n');
-				}
+				putchar('\n');
 			}
 		}
 	}
