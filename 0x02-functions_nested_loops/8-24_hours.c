@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * Description: print combs
+ * jack_bauer - function that prints time
+ * Description: print time
  * Return: return nothing
  */
 
@@ -26,9 +26,9 @@ void jack_bauer(void)
 				{
 					putchar(',');
 					putchar(' ');
+					putchar('\n');
 				}
 			}
 		}
 	}
-	putchar('\n');
 }
