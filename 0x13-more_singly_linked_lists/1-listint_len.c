@@ -3,7 +3,7 @@
 
 /**
  * listint_len - counts inked elements
- * @h - pointer to list
+ * @h:  pointer to list
  * Return: count
  */
 
