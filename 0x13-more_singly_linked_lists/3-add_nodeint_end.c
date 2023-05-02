@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- * *add_nodeint_endi - pointer to function that adds new node
+ * *add_nodeint_end - pointer to function that adds new node
  * @head: pointer to pointer of first node
  * @n: variable
  * Return: node address
@@ -26,7 +26,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	}
 	else
 	{
-		last_node =*head;
+		last_node =  *head;
 		while (last_node->next != NULL)
 		{
 			last_node = last_node->next;
