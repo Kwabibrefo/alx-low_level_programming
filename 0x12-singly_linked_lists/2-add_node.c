@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <string.h>
 #include <stdlib.h>
 /**
  * *add_node - pointer to function that adds new node
@@ -7,7 +8,7 @@
  * Return: node address
  */
 
-list_t *add_node(list_t **head, const char *str);
+list_t *add_node(list_t **head, const char *str)
 {
 	list_t *node;
 
@@ -22,7 +23,7 @@ list_t *add_node(list_t **head, const char *str);
 		free(node);
 		return NULL;
 	}
-	node->str = strlen(str);
+	node->len = strlen(str);
 	node->next = *head;
 	*head = node;
 
