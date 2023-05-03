@@ -5,7 +5,7 @@
 /**
  * print_list - print linked list elements
  * @h: pointer list
- * Return: i
+ * Return: return int 
  */
 
 size_t print_list(const list_t *h)
