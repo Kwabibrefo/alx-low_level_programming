@@ -1,0 +1,3 @@
+ondex is the index of the node, starting at 0
+if the node does not exist, return NULL
+e
