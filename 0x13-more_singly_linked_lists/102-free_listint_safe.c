@@ -5,7 +5,7 @@
 /**
  * free_listint_safe - ...
  * @head: pointer to list
- * Return node number
+ * Return: node number
  */
 
 size_t free_listint_safe(listint_t **h)

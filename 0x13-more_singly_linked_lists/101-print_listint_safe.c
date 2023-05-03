@@ -5,7 +5,7 @@
 /**
  * print_listint_safe - ...
  * @head: pointer to list
- * Return node number
+ * Return: node number
  */
 
 size_t print_listint_safe(const listint_t *head)
