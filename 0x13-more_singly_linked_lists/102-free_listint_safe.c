@@ -25,15 +25,13 @@ size_t free_listint_safe(listint_t **h)
 	       next = current->next;
 	       free(current);
 	       counter++;
-	
-	if (current <= next)
-	{
-		*h = NULL;
-		break;
+	       if (current <= next)
+	       {
+		       *h = NULL;
+		       break;
+	       }
+	       current = next;
 	}
-	current = next;
-	}
-
 	return (counter);
 
 
