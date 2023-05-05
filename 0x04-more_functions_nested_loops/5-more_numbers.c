@@ -10,7 +10,7 @@ void more_numbers(void)
 {
 	int i = 0;
 
-	while (i <= 10)
+	while (i < 10)
 	{
 		char j = '0';
 		char k = '1';
