@@ -10,14 +10,28 @@ void more_numbers(void)
 {
 	int i = 0;
 
-	for (i = 48; i <= 57; i++)
+	while (i <= 10)
 	{
-		if (i == 48 && i <= 57)
-		{		
-			_putchar(i);
-		i++;
+		char j = '0';
+		char k = '1';
+		char l = '0';
+
+		while (j <= '9')
+		{
+			_putchar(j);
+			j++;
 		}
-	_putchar('\n');
+		while (k == '1')
+		{
+			while (l <= '4')
+			{
+				_putchar(k);
+				_putchar(l);
+				l++;
+			}
+			k++;
+		}
+		_putchar('\n');
+		i++;
 	}
-_putchar('\n');
 }
