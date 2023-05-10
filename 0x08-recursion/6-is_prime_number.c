@@ -15,6 +15,7 @@ int is_prime_number(int n)
  * _prime - rec fun
  * Return: zero or one
  * @i: int
+ * @n: int
  */
 
 int _prime(int n, int i)
@@ -31,5 +32,4 @@ int _prime(int n, int i)
 	if (n % i == 0 && (i == n))
 		return (1);
 	return (_prime(n, i + 1));
-	
 }
