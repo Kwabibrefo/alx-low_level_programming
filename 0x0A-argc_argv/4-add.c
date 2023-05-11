@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
 	{
 		char *arg = argv[i];
 		int j = 0;
+
 		for (j = 0; arg[j]; j++)
 		{
 			if (!isdigit(arg[j]))
