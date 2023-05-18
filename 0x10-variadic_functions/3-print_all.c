@@ -24,11 +24,6 @@ void print_all(const char * const format, ...);
 			
 			p = (va_arg(ap, char *));
 		}
-		else if (format == i)
-		{
-			int *p;
-			p = (va_arg(ap, int *));
-		}
 			if (p != NULL)
 			{
 				printf("%s", p);
