@@ -1,6 +1,10 @@
 #ifndef LISTS_H
 #define LISTS_H
 #include <string.h>
+
+/**
+ * struct list_s - singly linked list
+ */
 typedef struct list_s
 {
 	char *str;
