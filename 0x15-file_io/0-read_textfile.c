@@ -3,7 +3,7 @@
 /**
  * read_textfile - reads file and print to stdo
  * @filename: name of read file
- * @leteers: number of letters to print
+ * @letters: number of letters to print
  * Return: 0 if fails or number of letters
  */
 
@@ -24,7 +24,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	x = read(f, par, letters);
 	if (x < 0)
 	{
-		free (par);
+		free(par);
 		return (0);
 	}
 		par[x] = '\0';
