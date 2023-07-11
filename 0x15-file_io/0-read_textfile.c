@@ -27,7 +27,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free (par);
 		return (0);
 	}
-		par[i] = '\0';
+		par[x] = '\0';
 	close(f);
 	y = write(STDOUT_FILENO, par, x);
 	if (y < 0)
