@@ -6,7 +6,3 @@ gcc -c -Wall -Werror -fpic *.c
 # Create the dynamic library liball.so
 gcc -shared -o liball.so *.o
 
-# Clean up object files
-rm *.o
-
-echo "Dynamic library liball.so created successfully!"
