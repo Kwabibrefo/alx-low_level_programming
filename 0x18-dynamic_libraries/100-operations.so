@@ -1,0 +1,9 @@
+# test_mylib.py
+import ctypes
+
+# Load the dynamic library
+mylib = ctypes.CDLL('./mylib.so')
+
+# Call the C function from the library
+result = mylib.add(5, 7)
+print("Result:", result)
