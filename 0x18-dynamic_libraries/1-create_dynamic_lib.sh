@@ -30,7 +30,7 @@ for source_file in "${source_files[@]}"; do
 done
 
 # Link object files into a dynamic library
-gcc -shared -o libdynamic.so *.o
+gcc -shared -o liball.so*.o
 
 # Clean up object files
 rm *.o
