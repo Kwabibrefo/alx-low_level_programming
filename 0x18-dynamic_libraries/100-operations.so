@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/usr/bin/python3
 # test_mylib.py
 import ctypes
 
